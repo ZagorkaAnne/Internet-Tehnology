@@ -12,6 +12,7 @@ namespace Lab2_B.Models
         [Required]
         public string Ime { get; set; }
         [Required]
+        [StringLength(30,MinimumLength =5)] //  VO LAB2 GRUPA V SAMO OVA E NOVO SE DRUGO E ISTO!
         public string Lokacija { get; set; }
     }
 }
